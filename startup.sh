@@ -41,7 +41,7 @@ RoboDiscoveryService
 #RoboVision3DService
 ################ Logging ################
 #/usr/local/bin/RoboVision3DService &> /home/DebugLog/StrideConsole.log
-sh /etc/RoboV.sh 
+sh /etc/RoboV.sh& 
 #/root/stride/exe/testIntelSensor  > /dev/null 2>&1 &		# Start Intel Realsense test application
 
 service cron start
